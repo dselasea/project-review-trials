@@ -20,7 +20,7 @@ p {
 }
 
 button {
-  background: #FF0000;
+  background: #f00;
   color: #fff;
   border: 0;
   padding: 1rem 1.5rem;
@@ -45,7 +45,8 @@ nav .logo img {
   height: auto;
 }
 
-nav .search, input[type="text"] {
+nav .search, 
+input[type="text"] {
   width: 70%;
   justify-self: center;
 }
@@ -121,8 +122,9 @@ section .container .section__video--comments div {
 }
 
 section .container .section__video--comments div h3,
-section .container .section__video--comments div p,
-section .container .section__content--channel p {
+section .container .section__content--channel p,
+section .container .section__video--comments div p
+ {
   font-size: 1.2rem;
 }
 
@@ -133,11 +135,11 @@ aside .video {
 }
 
 aside .video .content--text {
-    padding: 0 0 0 1.5rem;
-    font-size: 1.1rem;
+  padding: 0 0 0 1.5rem;
+  font-size: 1.1rem;
 }
 
-@media (min-width: 1042px ){
+@media (min-width: 1042px){
   main {
     display: flex;
   }
